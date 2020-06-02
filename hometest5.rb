@@ -13,7 +13,7 @@
 # 配列に格納
   things<<thing
 
-#配列に"以上"が入っているかを調査
+#配列に「エンター」＝空入力　の有無を調査
   if things.include?("")
      things.delete("")
 
