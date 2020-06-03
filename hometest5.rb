@@ -26,6 +26,6 @@ while true do
     puts things
     puts "本日、あなたは#{num}個のことを行いました！"
     puts "============================"
-    break
   end
+  break if thing.empty?
 end
